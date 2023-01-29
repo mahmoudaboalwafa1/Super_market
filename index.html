@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SuperMarket</title>
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <article>
+      <div class="container">
+        <!-- Start Header -->
+        <header>
+          <h1>
+            <i class="fas fa-shopping-basket color-orange pe-1"></i>SuperMarket
+          </h1>
+          <ul class="hidden">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#category">Categories</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+          </ul>
+          <ul>
+            <li><i class="fas fa-bars menu"></i></li>
+            <li>
+              <i class="fas fa-search search"></i>
+              <form class="formShow">
+                <input id="search" type="search" placeholder="Search Here..." />
+                <label><i class="fas fa-search search"></i></label>
+              </form>
+            </li>
+            <li>
+              <i class="fas fa-shopping-cart"></i>
+              <div class="basket">
+                <div class="market">
+                  <img src="./static/cart-img-1.png" alt="cart-img-1" />
+                  <div>
+                    <p>Watermelon</p>
+                    <span>$4.99/- Qty : 1</span>
+                  </div>
+                  <i class="fas fa-trash"></i>
+                </div>
+                <div class="market">
+                  <img src="./static/cart-img-2.png" alt="cart-img-2" />
+                  <div>
+                    <p>Onion</p>
+                    <span>$4.99/- Qty : 1</span>
+                  </div>
+                  <i class="fas fa-trash"></i>
+                </div>
+                <div class="market">
+                  <img src="./static/cart-img-3.png" alt="cart-img-3" />
+                  <div>
+                    <p>Chicken</p>
+                    <span>$4.99/- Qty : 1</span>
+                  </div>
+                  <i class="fas fa-trash"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <i class="fas fa-user"></i>
+              <form class="user">
+                <h1>login now</h1>
+                <input type="email" placeholder="Your Email" />
+                <input type="password" placeholder="Your Password" />
+                <p>Forget Your Password<a href="#">Click Here</a></p>
+                <p>Don't Have An Account<a href="#">Create Now</a></p>
+                <button class="bg-trans btn-shape">Login Now</button>
+              </form>
+            </li>
+          </ul>
+        </header>
+      </div>
+      <!-- End Header -->
+
+      <!-- start banner -->
+      <main>
+        <div class="text-banner text-center margin-center main">
+          <h2 class="fs-3">
+            Fresh And <span class="color-orange">Organic</span> Products For
+            Your
+          </h2>
+          <p class="color-light ln-2 fs-2">
+            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Aliquam
+            Libero Nostrum Veniam Facere Tempore Nisi.
+          </p>
+          <button class="bg-trans btn-shape">Shop Now</button>
+        </div>
+      </main>
+      <!-- End Banner -->
+
+      <!-- Start Main Container -->
+      <div class="bg-light pb-2">
+        <div class="container">
+          <!-- start Features -->
+          <section id="features" class="text-center pt-5">
+            <h1 class="fs-3">Our<span class="compo ms-3">Features</span></h1>
+            <ul class="mt-4 d-grid">
+              <div class="content">
+                <img src="./static/feature-img-1.png" alt="motorace" />
+                <h3>Fresh And Organic</h3>
+                <p>
+                  Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+                  Deserunt, Earum!
+                </p>
+                <button class="bg-trans btn-shape fw-bold">Read More</button>
+              </div>
+              <div class="content">
+                <img src="./static/feature-img-2.png" alt="motorace" />
+                <h3>Free Delivery</h3>
+                <p>
+                  Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+                  Deserunt, Earum!
+                </p>
+                <button class="bg-trans btn-shape fw-bold">Read More</button>
+              </div>
+              <div class="content">
+                <img src="./static/feature-img-3.png" alt="Easy Payments" />
+                <h3>Easy Payments</h3>
+                <p>
+                  Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+                  Deserunt, Earum!
+                </p>
+                <button class="bg-trans btn-shape fw-bold">Read More</button>
+              </div>
+            </ul>
+          </section>
+          <!-- End Features -->
+
+          <!-- Start Products -->
+          <section id="products" class="text-center pt-5 pb-5">
+            <h1 class="fs-3 mb-4">
+              Our<span class="compo ms-3">Products</span>
+            </h1>
+            <ul class="d-grid">
+              <div class="content border-rd-6">
+                <img src="./static/product-1.png" alt="product-1" />
+                <h2>Fresh Orange</h2>
+                <p>$4.99/- - 10.99/-</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="bg-trans btn-shape">Add To Card</button>
+              </div>
+              <div class="content border-rd-6">
+                <img src="./static/product-2.png" alt="product-2" />
+                <h2>Fresh Onion</h2>
+                <p>$4.99/- - 10.99/-</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="bg-trans btn-shape">Add To Card</button>
+              </div>
+              <div class="content border-rd-6">
+                <img src="./static/product-3.png" alt="product-3" />
+                <h2>Fresh Meat</h2>
+                <p>$4.99/- - 10.99/-</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="bg-trans btn-shape">Add To Card</button>
+              </div>
+              <div class="content border-rd-6">
+                <img src="./static/product-4.png" alt="product-4" />
+                <h2>Fresh Cabbage</h2>
+                <p>$4.99/- - 10.99/-</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="bg-trans btn-shape">Add To Card</button>
+              </div>
+              <div class="content border-rd-6">
+                <img src="./static/product-5.png" alt="product-5" />
+                <h2>Fresh Potato</h2>
+                <p>$4.99/- - 10.99/-</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="bg-trans btn-shape">Add To Card</button>
+              </div>
+              <div class="content border-rd-6">
+                <img src="./static/product-6.png" alt="product-6" />
+                <h2>Fresh Avocado</h2>
+                <p>$4.99/- - 10.99/-</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="bg-trans btn-shape">Add To Card</button>
+              </div>
+              <div class="content border-rd-6">
+                <img src="./static/product-7.png" alt="product-7" />
+                <h2>Fresh Carrot</h2>
+                <p>$4.99/- - 10.99/-</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="bg-trans btn-shape">Add To Card</button>
+              </div>
+              <div class="content border-rd-6">
+                <img src="./static/product-8.png" alt="product-8" />
+                <h2>Green Lemon</h2>
+                <p>$4.99/- - 10.99/-</p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button class="bg-trans btn-shape">Add To Card</button>
+              </div>
+            </ul>
+          </section>
+          <!-- End Products -->
+
+          <!-- Start Category  -->
+          <section id="category" class="text-center pt-5">
+            <h1 class="fs-3">Product<span class="compo">Categories</span></h1>
+            <div class="boxes-category d-grid">
+              <div class="content">
+                <img src="./static/cat-1.png" alt="cat-1" />
+                <h2>Vegitables</h2>
+                <p>Upto 45% Off</p>
+                <button class="bg-trans btn-shape">Shop Now</button>
+              </div>
+              <div class="content">
+                <img src="./static/cat-2.png" alt="cat-2" />
+                <h2>Fresh Fruits</h2>
+                <p>Upto 45% Off</p>
+                <button class="bg-trans btn-shape">Shop Now</button>
+              </div>
+              <div class="content">
+                <img src="./static/cat-3.png" alt="cat-3" />
+                <h2>Dairy Products</h2>
+                <p>Upto 45% Off</p>
+                <button class="bg-trans btn-shape">Shop Now</button>
+              </div>
+              <div class="content">
+                <img src="./static/cat-4.png" alt="cat-4" />
+                <h2>Fresh Meat</h2>
+                <p>Upto 45% Off</p>
+                <button class="bg-trans btn-shape">Shop Now</button>
+              </div>
+            </div>
+          </section>
+          <!-- End Category  -->
+
+          <!-- Start Customer's  -->
+          <section id="review" class="text-center pt-5">
+            <h1 class="fs-3">Customer's <span class="compo">Review</span></h1>
+            <div class="customrs pt-5">
+              <div class="content">
+                <img src="./static/pic-1.png" alt="pic-1" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  quod ab aperiam veritatis. Ab facilis consectetur nulla
+                  sapiente
+                </p>
+                <h2>John Doe</h2>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+              <div class="content">
+                <img src="./static/pic-2.png" alt="pic-2" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  quod ab aperiam veritatis. Ab facilis consectetur nulla
+                  sapiente
+                </p>
+                <h2>John Doe</h2>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+              <div class="content">
+                <img src="./static/pic-3.png" alt="pic-3" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  quod ab aperiam veritatis. Ab facilis consectetur nulla
+                  sapiente
+                </p>
+                <h2>John Doe</h2>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Customer's  -->
+
+          <!-- Start Blogs -->
+          <section id="blogs" class="text-center pt-5">
+            <h1 class="fs-3">Our<span class="compo">Blogs</span></h1>
+            <div class="blog-boxes d-grid">
+              <div class="blog-box">
+                <img src="./static/blog-1.jpg" alt="blog-1" />
+                <div class="inner-blog">
+                  <ul>
+                    <li>
+                      <i class="fas fa-user color-orange pe-1"></i
+                      ><span>By User</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-calendar color-orange pe-1"></i
+                      ><span>1st May,2022</span>
+                    </li>
+                  </ul>
+                  <h3>Fresh And Organic Vegitables And Fruits</h3>
+                  <p>
+                    Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+                    Veniam, Expedita.
+                  </p>
+                  <button class="bg-trans btn-shape">Read More</button>
+                </div>
+              </div>
+              <div class="blog-box">
+                <img src="./static/blog-2.jpg" alt="blog-2" />
+                <div class="inner-blog">
+                  <ul>
+                    <li>
+                      <i class="fas fa-user color-orange pe-1"></i
+                      ><span>By User</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-calendar color-orange pe-1"></i
+                      ><span>1st May,2022</span>
+                    </li>
+                  </ul>
+                  <h3>Fresh And Organic Vegitables And Fruits</h3>
+                  <p>
+                    Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+                    Veniam, Expedita.
+                  </p>
+                  <button class="bg-trans btn-shape">Read More</button>
+                </div>
+              </div>
+              <div class="blog-box">
+                <img src="./static/blog-3.jpg" alt="blog-3" />
+                <div class="inner-blog">
+                  <ul>
+                    <li>
+                      <i class="fas fa-user color-orange pe-1"></i
+                      ><span>By User</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-calendar color-orange pe-1"></i
+                      ><span>1st May,2022</span>
+                    </li>
+                  </ul>
+                  <h3>Fresh And Organic Vegitables And Fruits</h3>
+                  <p>
+                    Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+                    Veniam, Expedita.
+                  </p>
+                  <button class="bg-trans btn-shape">Read More</button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Blogs -->
+        </div>
+      </div>
+      <!-- End Main Container -->
+
+      <!-- Start Footer -->
+      <footer>
+        <div class="container">
+          <div class="social">
+            <h1>
+              <span class="pe-1">SuperMarket</span
+              ><i class="fas fa-shopping-basket color-orange"></i>
+            </h1>
+            <p class="ln-2">
+              Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Aliquam,
+              Saepe.
+            </p>
+            <div class="media">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="contact">
+            <h1>Contact Info</h1>
+            <div class="contacts">
+              <a href="tel:+01285817158" class="d-block"
+                ><i class="fas fa-phone color-orange pe-1"></i
+                ><span>01285817158</span></a
+              >
+              <a href="tel:+01001181167" class="d-block"
+                ><i class="fas fa-phone color-orange pe-1"></i
+                ><span>0100118116</span>7</a
+              >
+              <a href="mailto:112mahmoudsayed@gmail.com" class="d-block"
+                ><i class="fas fa-envelope color-orange pe-1"></i
+                ><span>112mahmoudsayed@gmail.com</span></a
+              >
+              <a href="#">
+                <address class="d-inlie">
+                  <i class="fas fa-map-marker-alt color-orange pe-1"></i
+                  ><span>Fakous,Ash-Sharkia,Egypt</span>
+                </address>
+              </a>
+            </div>
+          </div>
+          <div class="quick">
+            <h1>Quick Links</h1>
+
+            <p>
+              <i class="fas fa-arrow-right color-orange pe-1"></i
+              ><a href="#Home">Home</a>
+            </p>
+            <p>
+              <i class="fas fa-arrow-right color-orange pe-1"></i
+              ><a href="#features">Features</a>
+            </p>
+            <p>
+              <i class="fas fa-arrow-right color-orange pe-1"></i
+              ><a href="#products">Products</a>
+            </p>
+            <p>
+              <i class="fas fa-arrow-right color-orange pe-1"></i
+              ><a href="#category">Category</a>
+            </p>
+            <p>
+              <i class="fas fa-arrow-right color-orange pe-1"></i
+              ><a href="#review">Review</a>
+            </p>
+            <p>
+              <i class="fas fa-arrow-right color-orange pe-1"></i
+              ><a href="#blogs">Blogs</a>
+            </p>
+          </div>
+          <div class="news-letter">
+            <h1>NewsLetter</h1>
+            <p>Subscribe For Latest Updates</p>
+            <form>
+              <input type="email" name="email" placeholder="Your Email" />
+              <button class="bg-trans btn-shape">Subscribe</button>
+              <div class="cards">
+                <img src="./static/payment.png" alt="payment" />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="copy-right">
+          Created By <span class="color-orange">Mahmoud Abo Alwafa</span> | All
+          Rights Reserved
+        </div>
+      </footer>
+      <!-- End Footer -->
+    </article>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
