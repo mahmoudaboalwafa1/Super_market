@@ -1,0 +1,199 @@
+/* Start Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  padding: 0 80px;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: black;
+}
+
+header ul:last-child li:first-child {
+  display: none;
+}
+
+header ul:last-child li {
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+header ul i {
+  font-size: 1.5rem;
+}
+
+header ul:last-child li:nth-child(2) form {
+  position: absolute;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  border-radius: 6px;
+  bottom: -70px;
+  width: 40rem;
+  padding: 15px;
+  right: -500px;
+}
+
+header ul:last-child li:nth-child(2) form.form {
+  animation: show 0.3s linear both;
+}
+
+header ul:last-child li:nth-child(2) label {
+  position: absolute;
+  right: 20px;
+}
+
+header ul:last-child li:nth-child(2) i {
+  color: var(--black);
+  cursor: pointer;
+}
+
+header ul:last-child li:nth-child(2) i:hover,
+header ul:last-child li:nth-child(1) i:hover,
+header ul:last-child li:nth-child(3) i:hover,
+header ul:last-child li:nth-child(4) i:hover {
+  color: var(--orange);
+}
+
+header ul:last-child li:nth-child(2) input {
+  background-color: transparent;
+  width: 100%;
+}
+
+div.basket,
+form.user,
+ul.show {
+  position: absolute;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  right: -500px;
+  bottom: -320px;
+  height: 300px;
+  width: 270px;
+  border-radius: 6px;
+}
+
+div.basket.show,
+form.user.show,
+ul.show.show {
+  animation: show 0.2s linear both;
+}
+
+div.market {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.basket img {
+  width: 100px;
+}
+
+div.market p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+div.market span {
+  color: var(--light);
+  line-height: 2;
+  font-size: 13px;
+}
+
+div.market i {
+  color: var(--light);
+}
+
+div.market i:hover {
+  color: var(--orange);
+}
+
+.user h1 {
+  text-transform: uppercase;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+form.user {
+  text-align: center;
+  right: -500px;
+  height: 280px;
+}
+
+form.user input {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: var(--main-color);
+  width: 240px;
+}
+
+form.user p {
+  color: var(--light);
+  line-height: 25px;
+}
+
+form.user p:last-of-type {
+  margin-bottom: 20px;
+}
+
+form.user a {
+  color: var(--orange);
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+@keyframes show {
+  from {
+    right: -500px;
+  }
+  to {
+    right: 20px;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 992px) {
+  header {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 813px) {
+  header {
+    padding: 0 10px;
+  }
+  header ul:last-child li:first-child {
+    display: inline-block;
+  }
+
+  header ul.hidden {
+    display: none;
+  }
+
+  ul.show {
+    top: 100px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    color: var(--black);
+  }
+}
+/* End Header */

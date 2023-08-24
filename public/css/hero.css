@@ -1,0 +1,25 @@
+/* Start Main */
+main {
+  background-size: cover;
+  background-position: center;
+  height: 40rem;
+}
+
+div.main {
+  padding-top: 16rem;
+}
+
+div.main h2 {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+div.main p {
+  font-size: 1.5rem;
+}
+
+main p {
+  max-width: 500px;
+  margin: 14px auto;
+}
+/* End Main */

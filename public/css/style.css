@@ -1,0 +1,195 @@
+/* Start Global Rules */
+:root {
+  --orange: #ff7800;
+  --black: #130f40;
+  --light: #666;
+  --main-color: #eee;
+  --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+html {
+  font-size: 70%;
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+  transition: all 0.2s linear;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--orange);
+}
+
+::-webkit-scrollbar-track {
+  background-color: white;
+  box-shadow: var(--box-shadow) inset;
+}
+
+body {
+  overflow-x: hidden;
+}
+/* End Global Rules */
+
+/* Start Classes HelpFul */
+.text-center {
+  text-align: center;
+}
+
+.color-orange {
+  color: var(--orange);
+}
+
+.color-light {
+  color: var(--light);
+}
+
+.bg-trans {
+  background-color: transparent;
+}
+
+.bg-light {
+  background-color: var(--main-color);
+}
+
+.fs-2 {
+  font-size: 2rem;
+}
+
+.fs-3 {
+  font-size: 3rem;
+}
+
+.fs-4 {
+  font-size: 4rem;
+}
+
+.fw-light {
+  font-weight: 100;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.border-rd-6 {
+  border-radius: 6px;
+}
+
+.btn-shape {
+  border: solid 2px var(--black);
+  border-radius: 6px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.btn-shape:hover {
+  background-color: var(--orange);
+  color: white;
+}
+
+.ln-2 {
+  line-height: 2;
+}
+
+.dflex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.d-block {
+  display: block;
+}
+
+.pt-5 {
+  padding-top: 50px;
+}
+
+.pe-1 {
+  padding-right: 10px;
+}
+
+.pb-2 {
+  padding-bottom: 20px;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+.ms-3 {
+  margin-left: 30px;
+}
+
+.mb-4 {
+  margin-bottom: 40px;
+}
+
+.margin-center {
+  margin: auto;
+}
+
+div.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+@media (max-width: 560px) {
+  div.container {
+    width: 97%;
+  }
+}
+
+@media (min-width: 561px) and (max-width: 992px) {
+  div.container {
+    width: 90%;
+  }
+}
+
+span.compo {
+  color: white;
+  background-color: var(--orange);
+  padding: 5px 40px;
+  position: relative;
+}
+
+span.compo::before,
+span.compo::after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 30px;
+  border-color: transparent transparent transparent var(--main-color);
+  left: 0;
+  top: -3px;
+}
+
+span.compo::after {
+  left: unset;
+  right: 0;
+  border-color: transparent var(--main-color) transparent transparent;
+}
+/* end Classes HelpFul */
+
+/* Start Section Features */

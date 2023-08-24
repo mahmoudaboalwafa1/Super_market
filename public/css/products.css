@@ -1,0 +1,31 @@
+/* Start Section Products */
+#products img {
+  padding-top: 40px;
+  height: 200px;
+}
+
+#products ul {
+  margin-top: 40px;
+}
+
+#products .content {
+  height: 360px;
+  position: relative;
+  animation: show 0.5s linear both;
+}
+
+#products .content:hover::before {
+  height: 100%;
+  border-radius: 6px;
+}
+
+#products div.content p,
+div.stars {
+  padding-bottom: 10px;
+}
+
+div.stars i {
+  color: var(--orange);
+}
+
+/* End Section Products */
