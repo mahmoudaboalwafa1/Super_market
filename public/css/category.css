@@ -1,0 +1,19 @@
+/* Start Section Category */
+#category .content {
+  height: 350px;
+}
+
+.boxes-category {
+  padding-top: 30px;
+}
+
+#category img {
+  padding-top: 20px;
+}
+
+#category p {
+  color: var(--light);
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+/* End Section Category */

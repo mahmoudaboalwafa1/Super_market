@@ -113,7 +113,7 @@ const Products = (Container) => {
   const sectionProducts = document.createElement("section");
   sectionProducts.id = "products";
   sectionProducts.className = "text-center pt-5 pb-5";
-  MainTitle(sectionProducts, "Products");
+  MainTitle(sectionProducts, "Our", "Products");
 
   const ContainerBoxes = document.createElement("ul");
   ContainerBoxes.classList.add("d-grid");

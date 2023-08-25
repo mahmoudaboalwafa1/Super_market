@@ -1,0 +1,34 @@
+/* Start Custorms */
+div.customrs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+#review .content {
+  height: 350px;
+}
+
+#review img {
+  border-radius: 50%;
+  width: 100px;
+  margin-top: 30px;
+}
+
+#review p {
+  color: var(--light);
+  padding: 20px;
+  max-width: 350px;
+  margin: auto;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+#review h2 {
+  margin-top: -20px;
+}
+
+#review .stars {
+  margin-top: 10px;
+}
+/* End Custorms */

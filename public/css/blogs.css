@@ -1,0 +1,62 @@
+/* Start Blogs */
+
+.blog-box {
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  margin-top: 50px;
+}
+
+.blog-box ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#blogs img {
+  width: 100%;
+  height: 250px;
+}
+
+.blog-box h3 {
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.blog-box ul {
+  padding: 5px 10px;
+  text-align: left;
+}
+
+.blog-box ul {
+  position: relative;
+}
+
+.blog-box ul::after {
+  content: "";
+  background-color: var(--main-color);
+  width: calc(100% - 20px);
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
+.blog-box li span,
+.blog-box p {
+  font-size: 1.5rem;
+}
+
+.blog-box p,
+.blog-box h3 {
+  padding: 5px 20px;
+  line-height: 2;
+}
+
+.blog-box p {
+  color: var(--light);
+}
+
+.blog-box button {
+  margin: 10px 0;
+}
+/* End Blogs */

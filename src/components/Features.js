@@ -26,7 +26,7 @@ const Features = (Container) => {
   const sectionFeatures = document.createElement("section");
   sectionFeatures.id = "features";
   sectionFeatures.className = "text-center pt-5";
-  MainTitle(sectionFeatures, "Features");
+  MainTitle(sectionFeatures, "Our", "Features");
 
   // Features Boxes
   const containerBoxes = document.createElement("ul");
