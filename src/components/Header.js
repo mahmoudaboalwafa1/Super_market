@@ -44,7 +44,7 @@ const Header = () => {
   });
 
   const SpecialForAuser = document.createElement("ul");
-  SpecialForAuserIcons.map((forUser) => {
+  SpecialForAuserIcons.map((forUser, index) => {
     const liForUser = document.createElement("li");
     const iconForUser = document.createElement("i");
 

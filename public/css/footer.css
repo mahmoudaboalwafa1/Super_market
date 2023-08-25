@@ -1,0 +1,100 @@
+/* Start Footer */
+footer .container {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  position: relative;
+}
+
+footer .container::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--main-color);
+}
+
+.social h3,
+.contact h3,
+.quick h3,
+.news-letter h3 {
+  padding: 35px 0;
+}
+
+address {
+  font-size: 1.3rem;
+}
+
+.social p {
+  max-width: 300px;
+  color: var(--light);
+  font-size: 1.5rem;
+}
+
+.media {
+  padding-top: 1.5rem;
+}
+
+.media a {
+  margin: 0 2px;
+}
+
+.media i {
+  background-color: #eeeeee;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  color: var(--black);
+}
+
+.quick p,
+.contacts a {
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--light);
+  white-space: nowrap;
+}
+
+.quick a {
+  color: var(--light);
+  font-weight: 600;
+}
+
+.quick a:hover,
+.contact a:hover span {
+  padding-left: 1rem;
+}
+
+footer input {
+  background-color: var(--main-color);
+  padding: 10px;
+  margin: 20px 0;
+  width: 100%;
+  font-weight: 600;
+}
+
+.cards {
+  padding: 20px 0;
+}
+
+.cards img {
+  width: 180px;
+}
+
+.news-letter {
+  padding-top: 25px;
+}
+
+.news-letter p {
+  font-size: 1.5rem;
+}
+
+.copy-right {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+/* End Footer */

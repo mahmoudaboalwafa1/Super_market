@@ -6,56 +6,6 @@ const { default: App } = require("./app");
 App();
 
 // Start Header
-// let btnMenu = document.querySelector(".menu");
-// let navBar = document.querySelector("header ul:first-of-type");
-// let seacrh = document.querySelector(".search");
-// let formSearch = document.querySelector(
-//   "header ul:last-child li:nth-child(2) form"
-// );
-// let basketIcon = document.querySelector("header ul:last-child li:nth-child(3)");
-// let basket = document.querySelector(".basket");
-// let btnUser = document.querySelector("header ul:last-child li:nth-child(4)");
-// let menuUser = document.querySelector("form.user");
-
-// btnMenu.addEventListener("click", () => {
-//   navBar.classList.toggle("hidden");
-//   navBar.classList.toggle("show");
-//   formSearch.classList.remove("form");
-//   basket.classList.remove("show");
-//   menuUser.classList.remove("show");
-// });
-
-// seacrh.onclick = () => {
-//   formSearch.classList.toggle("form");
-//   navBar.classList.remove("show");
-//   navBar.classList.add("hidden");
-//   basket.classList.remove("show");
-//   menuUser.classList.remove("show");
-// };
-
-// basketIcon.onclick = () => {
-//   basket.classList.toggle("show");
-//   formSearch.classList.remove("form");
-//   navBar.classList.remove("show");
-//   navBar.classList.add("hidden");
-//   menuUser.classList.remove("show");
-// };
-
-// btnUser.onclick = () => {
-//   menuUser.classList.toggle("show");
-//   basket.classList.remove("show");
-//   formSearch.classList.remove("form");
-//   navBar.classList.remove("show");
-//   navBar.classList.add("hidden");
-// };
-
-// window.onscroll = () => {
-//   navBar.classList.remove("show");
-//   navBar.classList.add("hidden");
-//   formSearch.classList.remove("form");
-//   basket.classList.remove("show");
-//   menuUser.classList.remove("show");
-// };
 
 // End Header
 
